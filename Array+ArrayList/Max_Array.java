@@ -11,7 +11,7 @@ public class Max_Array {
         } 
         return max;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         int arr[]={12,34,54,34,64,32};
         System.out.println(max(arr));
     }
