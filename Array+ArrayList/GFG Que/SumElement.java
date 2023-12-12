@@ -11,6 +11,6 @@ public class SumElement{
     public static void main(String[] args) {
         int arr[]={2,3,4,5};
         int n=4; 
-        System.out.println(Sumele(arr[],n));
+        System.out.println(Sumele(arr,n));
     }
 }
