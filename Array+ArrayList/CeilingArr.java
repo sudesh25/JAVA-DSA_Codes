@@ -1,4 +1,4 @@
-public class Ceiling {
+public class CeilingArr {
     public static void main(String args[] ) {
         System.out.println("sudsh");
         int arr[] = {2, 6, 9, 12, 15, 20};
@@ -29,3 +29,4 @@ public class Ceiling {
         return start ; 
     }
 }
+    
