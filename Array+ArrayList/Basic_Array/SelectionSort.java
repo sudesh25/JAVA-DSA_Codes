@@ -18,8 +18,5 @@ import java.util.*;
             arr[s]=temp;
         } 
         System.out.println(Arrays.toString(arr));
-       }
-            
-          
+       }         
 } 
-

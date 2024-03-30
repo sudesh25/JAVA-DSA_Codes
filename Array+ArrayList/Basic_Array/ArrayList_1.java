@@ -14,7 +14,7 @@ public class ArrayList_1 {
        int element=list.get(0);
        System.out.println(element); 
        
-       System.out.println(list); 
+       System.out.println(list);        
         
        list.set(2,77); 
        System.out.println(list);   

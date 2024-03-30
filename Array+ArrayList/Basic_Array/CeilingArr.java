@@ -1,6 +1,6 @@
 public class CeilingArr {
     public static void main(String args[] ) {
-        System.out.println("sudsh");
+     
         int arr[] = {2, 6, 9, 12, 15, 20};
         int target = 10;
         System.out.println(ceiling(arr, target));
