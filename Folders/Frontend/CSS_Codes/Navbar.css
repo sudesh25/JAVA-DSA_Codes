@@ -1,0 +1,26 @@
+div{
+    background-color: #0f1111; 
+    height:40px; 
+     
+    border-color:rgb(64, 71, 71); 
+    border-width: 10px;
+} 
+body {
+    background-color: #48d6d6;
+} 
+
+*{
+    color:white
+} 
+button
+{
+   background-color:  #f08804;
+} 
+#logo
+{
+    color:#f08804 ;
+    font-size:25px 
+} 
+a{
+    margin-right: 200px;
+}

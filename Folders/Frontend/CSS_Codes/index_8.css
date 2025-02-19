@@ -1,0 +1,40 @@
+div{
+    height: 50px; 
+    background-color: bisque; 
+    width: 50px;
+} 
+@media ( min-width:600px){
+   div{
+    background-color: brown;
+   }
+} 
+ 
+#one{
+    height:50px;
+    width: 50PX;
+    background-color: rgb(25, 22, 18);
+} 
+@media (max-width:300px)
+{
+    #one{
+        background-color:green;
+    }
+} 
+@media(min-width:300px) and  (max-width:400px)
+{
+    #one{
+        background-color: pink;
+    }
+}    
+@media(min-width:400px) and (max-width:600px) 
+{
+    #one{
+        background-color: red;
+    }
+} 
+@media(min-width:600px)
+{
+    #one{
+        background-color: blue;
+    }
+}  

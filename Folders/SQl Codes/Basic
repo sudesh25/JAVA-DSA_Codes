@@ -1,0 +1,55 @@
+CREATE DATABASE BASIC_1;   -- Q
+
+CREATE DATABASE basic_2;  
+
+create database sudesh; 
+ 
+ create database sudu;
+  drop database sudu;      -- Q
+  drop database sudesh ; 
+  drop database if exists basic_2;  -- Q
+  
+  use basic_1;   
+  drop database basic_1; 
+  
+  create database collage_1;
+   create database if not exists collage_1; -- Q 
+   use collage_1;                           -- Q
+   create table student(                    -- Q
+   id int primary key,
+   name varchar(50), 
+   age int not null 
+   );  
+   
+   drop table student ;                      -- Q
+    
+    insert into student values(1,"sudesh",21);    -- Q
+    insert into student values(2,"Rudresh",24);  
+     
+     show databases;        -- Q 
+	select * from student;   -- Q *= all   
+     insert into student values    -- Q
+     (3,"Vivek",23),
+     (4,"Adesh",23); 
+     
+      insert into student  -- Q
+      (id,name,age)
+      values
+     (3,"Vivek",23),
+     (4,"Adesh",23);
+     
+     
+     
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

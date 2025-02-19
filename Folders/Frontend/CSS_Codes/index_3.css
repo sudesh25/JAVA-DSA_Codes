@@ -1,0 +1,24 @@
+h1{
+      font-weight: normal;
+}  
+h2{
+    font-weight: lighter;
+}  
+#para1{ 
+     font-family: Arial, Helvetica, sans-serif;   /* multiple font depend upon environment*/ 
+     text-transform: uppercase;
+} 
+#para2{
+  font-family: fantasy; 
+  line-height: 50px; 
+  text-transform: lowercase;
+}
+#one{
+    font-size: 25px;
+} 
+#two
+{
+    font-size: 10px;
+} 
+
+

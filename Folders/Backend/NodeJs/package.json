@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.6"
+  },
+  "dependencies": {
+    "figlet": "^1.7.0"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudesh",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+   
+  
+}

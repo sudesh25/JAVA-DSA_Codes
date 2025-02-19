@@ -1,0 +1,25 @@
+#boxes{
+    background-color:red;
+} 
+h1{
+     color: aquamarine;
+} 
+h4{
+    text-align: center; 
+    text-transform: uppercase;
+} 
+#outer{
+    font-size: 25px;
+} 
+#inner 
+{
+    font-size:10px;
+} 
+#q{
+    height: 100px;
+    width: 100px; 
+    background-color: greenyellow; 
+    border-radius: 50px; 
+    padding: 25px; 
+    text-align: center; 
+} 

@@ -1,0 +1,26 @@
+h1{ 
+    color:red;
+} 
+h2{
+     color: blueviolet;
+} 
+p1{
+    color: greenyellow;
+} 
+button{                                   /* Comment in css */
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 160, 160);
+} 
+body{
+    background-color: #fefdff;
+}  
+#heading2{
+    color: aquamarine;
+} 
+.myclass{
+    color:blanchedalmond
+} 
+p{
+    text-align:center; 
+    text-decoration: blueviolet dotted underline;
+} 

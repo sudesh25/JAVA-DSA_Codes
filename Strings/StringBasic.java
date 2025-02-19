@@ -2,6 +2,9 @@ import java.util.*;
 
 public class StringBasic { 
     public static void main(String[] args) {
+
+        String str = new String(); 
+     
         String firstname="Sudesh"; 
         String lastname="INgole"; 
         String fullname=firstname+lastname;  
@@ -42,6 +45,14 @@ public class StringBasic {
         String name7="Sudesh";
         char S[]=name7.toCharArray(); 
         System.out.println(Arrays.toString(S));
-        
+
+        String na1me = " Sudesh ";
+        na1me = na1me + "ingole";                // It will creates a new String 
+        System.out.println(na1me);
     }                                                                                                   
 }
+
+
+
+
+

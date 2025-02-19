@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-color: black;
+    border-style: solid;     
+    border-width: 2px; 
+    transition-duration:2s; 
+  
+   transition: all;
+}
+div:hover
+{
+    background-color: bisque;
+    color: blue ;  
+    font-size: large; 
+    /* transform: rotate(90deg); 
+    transform: rotateZ(60deg);  */
+    transform: scaleX(30px);
+} 
+div:active{
+    background-color: orange;
+} 
+#one{
+    height: 100px;
+    width: 100px; 
+    position: absolute;
+    top:200px ;
+    left:300px;
+    background-color: antiquewhite;
+    transform: rotate(90deg); 
+    transform: rotateZ(60deg);   
+}

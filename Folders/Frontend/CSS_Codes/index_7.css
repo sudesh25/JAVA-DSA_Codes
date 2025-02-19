@@ -1,0 +1,31 @@
+div{
+    background-color: antiquewhite; 
+    display:flex;
+    justify-content:space-around;
+    
+} 
+a{
+    text-decoration: none; 
+    color: black    ; 
+    background-color: aqua;
+} 
+li{
+    list-style-type:none; 
+    display: inline-block;
+}    
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;  
+    display:flex ; 
+    align-items: center;
+} 
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(237, 115, 115); 
+    position: absolute;  
+    margin-left: 200px; 
+    justify-items: center; 
+    padding-left: 200px;
+}

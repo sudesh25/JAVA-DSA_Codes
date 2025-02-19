@@ -1,8 +1,10 @@
 // https://www.geeksforgeeks.org/problems/pangram-strings3155/1?page=1&category=Strings&difficulty=Easy,Medium&sortBy=submissions
+import java.util.*;
 public class PangramStrings {
     public static void main(String[] args) {
            String  S = "Pack mY box witH fIve dozen liquor jugs";
            System.out.println(isPanagram(S));
+        
     } 
   static   int isPanagram(String s) {
          s=s.toLowerCase();
@@ -16,7 +18,7 @@ public class PangramStrings {
                     flag=1;
                     break;
                 } 
-                
+            
              } 
              if(flag==0)
                 {

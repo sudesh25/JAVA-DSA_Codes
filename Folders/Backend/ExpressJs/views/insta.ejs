@@ -1,0 +1,16 @@
+<%- include("includes/head.ejs") %>          <!-- It will include the head part of the file-->
+    <body>
+        <h1>
+            Welcome Instagram User @<%= username  %>
+         </h1>
+         <button>Follow</button>
+         <button>Massage</button> 
+         <h1>Followers</h1> 
+         <ul>
+            <% for(let j=0;j<followers.length;j++){ %>
+              <li> <%= followers[j] %> </li> 
+              <% } %>
+         </ul>
+        
+    </body>
+</html>

@@ -14,8 +14,10 @@ public class ReversString {
                 name.setCharAt(front,name.charAt(End));
                 name.setCharAt(End,a);
               
-                System.out.println(name);
+              
 
             }
+            System.out.println(name);
      }
+
 }

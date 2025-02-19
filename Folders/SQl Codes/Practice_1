@@ -1,0 +1,14 @@
+create database practice_1;
+use practice_1; 
+ create table employee_info(
+ id int primary key,
+ name varchar(50),
+ salary int
+ ); 
+ insert into employee_info values
+ (1, "Sudesh", 2300),
+ (2, "Shyam", 3400), 
+ (3, "Ram", 4500) ; 
+ select * from employee_info; 
+ 
+ 

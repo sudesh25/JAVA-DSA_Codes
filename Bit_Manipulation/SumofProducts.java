@@ -21,4 +21,4 @@ public class SumofProducts {
          return sum; 
     }
 }
-...// need to optimize it 
+// need to optimize it 
